@@ -17,7 +17,6 @@ public class Service {
             lock.readLock().unlock();
         }
     }
-
     public void write(){
         try{
             lock.writeLock().lock();

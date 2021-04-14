@@ -9,7 +9,8 @@ public class MyThreadInSleep extends Thread{
             Thread.sleep(20000);
             System.out.println("I was awake");
         }catch(InterruptedException e){
-            System.out.println("currentThread="+Thread.currentThread().getName()+",I was waked");
+            e.printStackTrace();
+            System.out.println("InterruptedException,currentThread="+Thread.currentThread().getName()+",I was waked");
         }
 
     }

@@ -14,7 +14,7 @@ public class SuspendResumeObject {
 
     public static void main(String[] args){
         try{
-            final SuspendResumeObject object=new SuspendResumeObject();
+            final SuspendResumeObject object=new SuspendResumeObject();//为啥这边必须是final
             Thread thread1=new Thread(){
                 @Override
                 public void run(){

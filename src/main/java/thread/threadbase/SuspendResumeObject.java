@@ -4,12 +4,12 @@ import utils.Print;
 //suspend resume的独占性
 public class SuspendResumeObject {
     synchronized public void printString(){
-        Print.println("begin");
+        Print.println(Thread.currentThread().getName()+",begin");
         if(Thread.currentThread().getName().equals("a")){
             Print.println("a线程永远suspend了");
             Thread.currentThread().suspend();
         }
-        Print.println("end");
+        Print.println(Thread.currentThread().getName()+",end");
     }
 
     public static void main(String[] args){
@@ -33,7 +33,8 @@ public class SuspendResumeObject {
                 }
             };
             thread2.start();
-            //thread1.resume();
+            Thread.sleep(5000);
+            thread1.resume();
         }catch (InterruptedException e){
             e.printStackTrace();
         }

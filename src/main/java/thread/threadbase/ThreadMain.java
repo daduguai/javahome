@@ -35,7 +35,7 @@ public class ThreadMain {
 
     //子线程在睡眠中，被主线程interrupt
     public static void main(String[] asgs){
-        System.out.println("main thread end");
+        System.out.println("main thread start");
         Thread thread=new MyThreadInSleep();
         thread.start();
         thread.interrupt();

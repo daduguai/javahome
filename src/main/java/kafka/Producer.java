@@ -18,7 +18,7 @@ public class Producer {
 
         //创建生产者实例
         KafkaProducer<String,String>producer=new KafkaProducer<String,String>(props);
-        ProducerRecord record=new ProducerRecord<String,String>("topic1","userName","lc");
+        ProducerRecord record=new ProducerRecord<String,String>("topic1","age","30");
 
         producer.send(record);
         producer.close();

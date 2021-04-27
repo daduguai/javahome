@@ -75,4 +75,4 @@ class ThreadBB extends Thread{
     }
 }
 
-
+//如果锁定的对象变化了，则拿的非同一把锁

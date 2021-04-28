@@ -2,8 +2,8 @@ package algorithms.sequence;
 
 import java.util.LinkedList;
 
-public class LRUExchangeImp implements CacheExchangeInterface<LinkNode>{
-    public void exchange(LinkNode head){
+public class LRUExchangeImp implements CacheExchangeInterface<LinkNode,Integer>{
+    public void exchange(LinkNode head,Integer[] input){
     }
 }
 class LinkNode{

@@ -55,10 +55,13 @@ public class WaitAndNotify3 {
     public static void main(String[]args){
         Object lock=new Object();
         ThreadA a =new ThreadA(lock);
+        a.setName("ThreadA");
         a.start();
         NotifyThread notifyThread=new NotifyThread(lock);
+        notifyThread.setName("NotifyThread");
         notifyThread.start();
         SynNotifyMethodThread c=new SynNotifyMethodThread(lock);
+        c.setName("SynNotifyMethodThread");
         c.start();
     }
 }

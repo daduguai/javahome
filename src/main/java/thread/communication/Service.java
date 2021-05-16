@@ -27,6 +27,9 @@ public class Service {
                         +" time="+System.currentTimeMillis());
 
             }
+            Thread.sleep(5000);
+            Print.println("  outside notify() ThreadName="+Thread.currentThread().getName()
+                    +" time="+System.currentTimeMillis());
         }catch (InterruptedException e){
             e.printStackTrace();
         }

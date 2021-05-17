@@ -12,10 +12,13 @@ public class WriteData {
             for(int i=0;i<300;i++){
                 String outDate=""+(i+1);
                 out.write(outDate.getBytes());
+                Thread.sleep(2000);
                 Print.println(outDate);
             }
             out.close();
         }catch (IOException e){
+            e.printStackTrace();
+        }catch(InterruptedException e){
             e.printStackTrace();
         }
     }

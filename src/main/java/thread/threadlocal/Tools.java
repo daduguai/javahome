@@ -5,4 +5,5 @@ import java.util.Date;
 public class Tools {
     public static ThreadLocal t1=new ThreadLocal();
     public static ThreadLocal<Date>t2=new ThreadLocal<Date>();
+    public static ThreadLocalExt t3=new ThreadLocalExt();
 }

@@ -1,4 +1,4 @@
-package thread.lock;
+package thread.lock.producer_cosumer;
 
 import utils.Print;
 
@@ -9,25 +9,23 @@ import java.util.concurrent.locks.ReentrantLock;
 public class MyService {
     private Lock lock=new ReentrantLock();
     private Condition condition=lock.newCondition();
-    public void testMethod(){
-        lock.lock();
-        for(int i=0;i<5;i++){
-            Print.println("ThreadName="+Thread.currentThread().getName()+" "+(i+1));
+    public void await(){
+        try{
+            lock.lock();
+            Print.println("await 时间为："+System.currentTimeMillis());
+            condition.await();
+        }catch (InterruptedException e){}finally {
+            lock.unlock();
         }
-        lock.unlock();
     }
 
-    public void await(){
-        try {
+    public void signal(){
+        try{
             lock.lock();
-            Print.println("A");
-            condition.await();
-            Print.println("B");
-        }catch (InterruptedException e){
-
+            Print.println("signal 时间为："+System.currentTimeMillis());
+            condition.signal();
         }finally {
             lock.unlock();
-            Print.println("锁释放了！");
         }
     }
 }

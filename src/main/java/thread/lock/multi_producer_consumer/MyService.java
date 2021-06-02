@@ -20,8 +20,8 @@ public class MyService {
             }
             hasValue=true;
             Print.println("打印*");
-            condition.signalAll();
-            //condition.signal();//会出现假死
+            //condition.signalAll();
+            condition.signal();//会出现假死
         }catch(InterruptedException e){}finally {
             lock.unlock();
         }
@@ -36,10 +36,13 @@ public class MyService {
             }
             hasValue=false;
             Print.println("打印#");
-            condition.signalAll();
-            //condition.signal();//会出现假死
+            //condition.signalAll();
+            condition.signal();//会出现假死
         }catch(InterruptedException e){}finally {
             lock.unlock();
         }
     }
 }
+
+//为何出现假死
+//唤醒了同类，如生产者唤醒了生产者,那为何会假死

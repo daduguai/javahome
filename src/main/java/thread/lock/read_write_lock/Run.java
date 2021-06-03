@@ -7,5 +7,10 @@ public class Run {
         ThreadA b=new ThreadA(service);
         a.start();
         b.start();
+
+        ThreadC c=new ThreadC(service);
+        ThreadD d=new ThreadD(service);
+        c.start();
+        d.start();
     }
 }

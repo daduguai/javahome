@@ -1,7 +1,7 @@
 package thread.singleton;
 
 public class FullStaticMethodSingleton {
-    private static FullStaticMethodSingleton instance;
+    private volatile static FullStaticMethodSingleton instance;//volatile防止指令重排，内存可见性
     private FullStaticMethodSingleton(){
     }
 
@@ -10,8 +10,9 @@ public class FullStaticMethodSingleton {
         }else{
             try{
                 Thread.sleep(5000);
+                instance=new FullStaticMethodSingleton();
             }catch (InterruptedException e){}
-            instance=new FullStaticMethodSingleton();
+
         }
         return instance;
     }

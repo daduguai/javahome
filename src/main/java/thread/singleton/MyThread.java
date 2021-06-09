@@ -8,6 +8,6 @@ public class MyThread extends Thread{
     }
     @Override
     public void run(){
-        Print.println(DclSingleton.getInstance().hashCode());
+        Print.println(StaticInnerClassSingleton.getInstance().hashCode());
     }
 }

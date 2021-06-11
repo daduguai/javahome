@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="926080d4-98f6-4576-b809-7e411e6744ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/singleton/AntiSerializeRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/singleton/AntiSerializeSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/singleton/StaticInnerClassSingleton.java" afterDir="false" />
+    <list default="true" id="926080d4-98f6-4576-b809-7e411e6744ac" name="Default Changelist" comment="Thread:Singleton：单例：静态内部类方式可以序列化">
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/singleton/EnumSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/singleton/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/singleton/MyThread.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,25 +16,26 @@
     <session id="-1798836968">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="17" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="19" />
           <entry key="project.open.time.8" value="10" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="46" />
+          <entry key="project.opened" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Q&amp;A" value="1" />
           <entry key="class" value="1" />
-          <entry key="java" value="256" />
+          <entry key="java" value="258" />
           <entry key="md" value="2" />
+          <entry key="txt" value="2" />
           <entry key="vmoptions" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -45,9 +43,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="256" />
+          <entry key="JAVA" value="258" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -55,17 +53,17 @@
         <counts>
           <entry key="Q&amp;A" value="188" />
           <entry key="dummy" value="22" />
-          <entry key="java" value="25138" />
+          <entry key="java" value="25933" />
           <entry key="md" value="164" />
-          <entry key="txt" value="698" />
+          <entry key="txt" value="711" />
           <entry key="xml" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25138" />
+          <entry key="JAVA" value="25933" />
           <entry key="Markdown" value="164" />
-          <entry key="PLAIN_TEXT" value="908" />
+          <entry key="PLAIN_TEXT" value="921" />
           <entry key="XML" value="26" />
         </counts>
       </usages-collector>
@@ -82,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/FullStaticMethodSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="24" />
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -92,10 +90,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding>
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -103,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="74" lean-forward="true" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+            <state relative-caret-position="171">
+              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
               <folding>
                 <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
@@ -116,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/DclSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
+            <state relative-caret-position="475">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
@@ -126,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/Run.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -134,43 +128,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/AntiSerializeSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="133">
+              <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/AntiSerializeRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/lock/DeadLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/AntiSerializeRun.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/EnumSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="522">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/lock/multi_producer_consumer/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/lock/multi_producer_consumer/MyThreadA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -205,8 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/thread/communication/bytestream/WriteDate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/communication/bytestream/ThreadWrite.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/communication/bytestream/ThreadRead.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/communication/bytestream/Run.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/communication/bytestream/ReadData.java" />
@@ -256,6 +251,8 @@
         <option value="$PROJECT_DIR$/src/main/java/thread/singleton/StaticInnerClassSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/singleton/AntiSerializeSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/singleton/AntiSerializeRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/lock/DeadLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/singleton/EnumSingleton.java" />
       </list>
     </option>
   </component>
@@ -292,8 +289,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="347" />
-    <option name="y" value="121" />
+    <option name="x" value="860" />
+    <option name="y" value="55" />
     <option name="width" value="1511" />
     <option name="height" value="1052" />
   </component>
@@ -305,6 +302,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,6 +335,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="threadbase" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javahome" type="58d84e3e:PackageViewProjectNode" />
+              <item name="javahome" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="javahome" type="58d84e3e:PackageViewProjectNode" />
+              <item name="javahome" type="616d4139:PackageViewModuleNode" />
+              <item name="jvm" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -388,29 +402,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="javahome" type="58d84e3e:PackageViewProjectNode" />
-              <item name="javahome" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="javahome" type="58d84e3e:PackageViewProjectNode" />
-              <item name="javahome" type="616d4139:PackageViewModuleNode" />
-              <item name="jvm" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623280492455" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623449969021" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/thread" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -448,7 +445,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AntiSerializeRun">
+  <component name="RunManager" selected="Application.DeadLock">
     <configuration name="AntiSerializeRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.singleton.AntiSerializeRun" />
       <module name="javahome" />
@@ -462,12 +459,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.lock.multi_producer_consumer.Run" />
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.lock.DeadLock" />
       <module name="javahome" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.lock.multi_producer_consumer.*" />
+          <option name="PATTERN" value="thread.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -515,19 +512,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Run (2)" />
       <item itemvalue="Application.Run (3)" />
       <item itemvalue="Application.RunInFuture" />
       <item itemvalue="Application.Run" />
       <item itemvalue="Application.AntiSerializeRun" />
+      <item itemvalue="Application.DeadLock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLock" />
         <item itemvalue="Application.AntiSerializeRun" />
         <item itemvalue="Application.Run" />
         <item itemvalue="Application.RunInFuture" />
         <item itemvalue="Application.Run (3)" />
-        <item itemvalue="Application.Run (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -586,7 +583,10 @@
       <workItem from="1623077664575" duration="1154000" />
       <workItem from="1623107126846" duration="2665000" />
       <workItem from="1623250574874" duration="1137000" />
-      <workItem from="1623277280592" duration="3146000" />
+      <workItem from="1623277280592" duration="3643000" />
+      <workItem from="1623339543340" duration="843000" />
+      <workItem from="1623424344110" duration="692000" />
+      <workItem from="1623449543158" duration="421000" />
     </task>
     <task id="LOCAL-00001" summary="github first time learning">
       <created>1617805701858</created>
@@ -812,11 +812,18 @@
       <option name="project" value="LOCAL" />
       <updated>1623110709368</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Thread:Singleton：单例：静态内部类方式可以序列化">
+      <created>1623280589994</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1623280589994</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115451000" />
+    <option name="totallyTimeSpent" value="117904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -828,10 +835,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="584" y="119" width="1511" height="1052" extended-state="0" />
+    <frame x="860" y="55" width="1511" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25430736" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16333564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -840,7 +847,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5203308" visible="true" weight="0.4002181" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5182633" visible="true" weight="0.29334787" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39957035" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -848,8 +855,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.48294243" weight="0.4726101" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4978678" weight="0.38345864" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.47966918" side_tool="true" visible="true" weight="0.4002181" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.45761544" weight="0.4591058" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.48173672" side_tool="true" visible="true" weight="0.29334787" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.45485872" weight="0.4591058" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -894,7 +901,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="github first time learning" />
     <MESSAGE value="maven configuration" />
     <MESSAGE value="初始文件编写" />
     <MESSAGE value="git尝试" />
@@ -919,7 +925,8 @@
     <MESSAGE value="Thread:lock：读写锁" />
     <MESSAGE value="Thread:Timer：定时任务" />
     <MESSAGE value="Thread:Singleton：单例" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread:Singleton：单例" />
+    <MESSAGE value="Thread:Singleton：单例：静态内部类方式可以序列化" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread:Singleton：单例：静态内部类方式可以序列化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -946,37 +953,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/java/lib/src.zip!/java.base/java/io/PipedInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="104" column="40" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/join/ThreadB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/join/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/join/Run1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -1239,45 +1215,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/lock/multi_producer_consumer/MyThreadB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/FullStaticMethodSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/DclSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/StaticInnerClassSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/java/lib/src.zip!/java.base/java/io/Serializable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -1285,22 +1222,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/AntiSerializeSingleton.java">
+    <entry file="file://$PROJECT_DIR$/myObjectFile1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myObjectFile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/FullStaticMethodSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/StaticInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="74" lean-forward="true" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        <state relative-caret-position="171">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
           <folding>
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
@@ -1308,12 +1257,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/AntiSerializeRun.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/DclSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/AntiSerializeSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/AntiSerializeRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/lock/multi_producer_consumer/MyThreadB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/lock/DeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/singleton/EnumSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
           </folding>
         </state>
       </provider>

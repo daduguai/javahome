@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926080d4-98f6-4576-b809-7e411e6744ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/thread_art/thread_base/SleepUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/thread_art/thread_base/ThreadState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/thread_art/db_connection_pool/ConnectionDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/thread_art/db_connection_pool/ConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/javahome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/javahome.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,16 +27,16 @@
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="22" />
-          <entry key="project.open.time.8" value="12" />
+          <entry key="project.open.time.8" value="13" />
           <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="56" />
+          <entry key="project.opened" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Q&amp;A" value="1" />
           <entry key="class" value="1" />
-          <entry key="java" value="271" />
+          <entry key="java" value="273" />
           <entry key="md" value="2" />
           <entry key="txt" value="2" />
           <entry key="vmoptions" value="1" />
@@ -44,7 +46,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="271" />
+          <entry key="JAVA" value="273" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="3" />
@@ -54,17 +56,17 @@
         <counts>
           <entry key="Q&amp;A" value="188" />
           <entry key="dummy" value="22" />
-          <entry key="java" value="28168" />
+          <entry key="java" value="29186" />
           <entry key="md" value="164" />
-          <entry key="txt" value="747" />
+          <entry key="txt" value="775" />
           <entry key="xml" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28168" />
+          <entry key="JAVA" value="29186" />
           <entry key="Markdown" value="164" />
-          <entry key="PLAIN_TEXT" value="957" />
+          <entry key="PLAIN_TEXT" value="985" />
           <entry key="XML" value="40" />
         </counts>
       </usages-collector>
@@ -78,31 +80,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/invisibility/happen_before/Run.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_art/thread_base/ThreadState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="320">
+              <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/excel_utils/ExcelUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_art/db_connection_pool/ConnectionPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="243">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#193#205#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_art/thread_base/ThreadState.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_art/db_connection_pool/ConnectionDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="44" />
+            <state relative-caret-position="361">
+              <caret line="19" column="75" lean-forward="true" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,7 +188,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/atom/AtomCountMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
+            <state relative-caret-position="627">
               <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -221,8 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/thread/threadlocal/ThreadBDate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/threadlocal/RunDate.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/threadlocal/ThreadLocalExt.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/threadlocal/Tools.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/threadlocal/ThreadAExt.java" />
@@ -272,6 +276,8 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/excel_utils/ExcelUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/thread_art/thread_base/SleepUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/thread_art/thread_base/ThreadState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/thread_art/db_connection_pool/ConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/thread_art/db_connection_pool/ConnectionDriver.java" />
       </list>
     </option>
   </component>
@@ -307,11 +313,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="569" />
-    <option name="y" value="123" />
-    <option name="width" value="1511" />
-    <option name="height" value="1052" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="118" />
+    <option name="y" value="237" />
+    <option name="width" value="976" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -321,6 +327,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javahome" type="58d84e3e:PackageViewProjectNode" />
+              <item name="javahome" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="javahome" type="58d84e3e:PackageViewProjectNode" />
+              <item name="javahome" type="616d4139:PackageViewModuleNode" />
+              <item name="jvm" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -371,7 +394,7 @@
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="thread" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="thread_art" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="thread_base" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="db_connection_pool" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -414,33 +437,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="javahome" type="58d84e3e:PackageViewProjectNode" />
-              <item name="javahome" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="javahome" type="58d84e3e:PackageViewProjectNode" />
-              <item name="javahome" type="616d4139:PackageViewModuleNode" />
-              <item name="jvm" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1624493640001" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1624580498398" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/thread" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -622,7 +628,8 @@
       <workItem from="1624287708921" duration="563000" />
       <workItem from="1624316451719" duration="661000" />
       <workItem from="1624458964398" duration="1932000" />
-      <workItem from="1624492892733" duration="719000" />
+      <workItem from="1624492892733" duration="1201000" />
+      <workItem from="1624578740669" duration="1739000" />
     </task>
     <task id="LOCAL-00001" summary="github first time learning">
       <created>1617805701858</created>
@@ -876,11 +883,18 @@
       <option name="project" value="LOCAL" />
       <updated>1624461550370</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Thread:thread_art:thread state">
+      <created>1624493714731</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1624493714731</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126719000" />
+    <option name="totallyTimeSpent" value="128940000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -892,10 +906,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="569" y="123" width="1511" height="1052" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17643005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -904,7 +918,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7436251" visible="true" weight="0.29334787" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7436251" visible="true" weight="0.23696145" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39957035" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -912,7 +926,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.48294243" weight="0.4726101" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4978678" weight="0.38345864" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.25637493" side_tool="true" visible="true" weight="0.29334787" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.25637493" side_tool="true" visible="true" weight="0.2244898" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4493453" weight="0.4591058" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -958,7 +972,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="git尝试" />
     <MESSAGE value="thread:interrupt" />
     <MESSAGE value="threadbase:线程引用线程外变量，该变量必须是final" />
     <MESSAGE value="thread:线程引用线程外变量，该变量必须是final" />
@@ -983,7 +996,8 @@
     <MESSAGE value="Thread:Singleton：单例：静态内部类方式可以序列化" />
     <MESSAGE value="Thread:base:equal与==" />
     <MESSAGE value="Thread:utils:excel utils" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread:utils:excel utils" />
+    <MESSAGE value="Thread:thread_art:thread state" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread:thread_art:thread state" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1010,20 +1024,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/lock/producer_cosumer/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/lock/producer_cosumer/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/threadlocal/Run.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1284,6 +1284,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/excel_utils/ExcelUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_art/thread_base/SleepUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1341,7 +1358,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/atom/AtomCountMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
+        <state relative-caret-position="627">
           <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1356,27 +1373,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/excel_utils/ExcelUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_art/thread_base/ThreadState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="320">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_art/db_connection_pool/ConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#193#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_art/thread_base/SleepUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_art/db_connection_pool/ConnectionDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_art/thread_base/ThreadState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="361">
+          <caret line="19" column="75" lean-forward="true" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

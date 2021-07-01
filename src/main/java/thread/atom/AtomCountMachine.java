@@ -1,6 +1,5 @@
 package thread.atom;
 
-import sun.management.counter.Counter;
 import utils.Print;
 
 import java.util.ArrayList;

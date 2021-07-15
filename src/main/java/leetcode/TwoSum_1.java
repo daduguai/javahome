@@ -35,4 +35,25 @@ public class TwoSum_1 {
         }
         return res;
     }
+
+    //用hashmap存储数组的值与下标，
+    //该解法无法处理数组中含有重复元素情况
+    public int[] twoSum(int[] nums, int target) {
+        if(nums==null||nums.length<=0){
+            return null;
+        }
+        int[] res=new int[2];
+        HashMap map=new HashMap<>();
+        for(int i=0;i<nums.length;i++){
+            map.put(nums[i],i);
+        }
+        for(int i=0;i<nums.length;i++){
+            if(map.containsKey(target-nums[i])&&i!=(int)map.get(nums[i])){
+                res[0]=i;
+                res[1]=(int)map.get(target-nums[i]);
+                return res;
+            }
+        }
+        return res;
+    }
 }

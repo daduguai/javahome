@@ -21,21 +21,6 @@ public class TwoSum_1 {
         this.target=target;
     }
 
-    public List getIndex(int[]nums,int target){
-        List<Integer>res=new ArrayList<>(2);
-        HashMap<Integer,Integer>data=new HashMap<>();
-        for(int i=0;i<nums.length;i++){
-            data.put(nums[i],i);
-        }
-        for(int i=0;i<nums.length;i++){
-            if(data.containsKey(target-nums[i])){
-                res.add(i);
-                res.add(data.get(target-nums[i]));//获取key对应的value
-            }
-        }
-        return res;
-    }
-
     //用hashmap存储数组的值与下标，
     //该解法无法处理数组中含有重复元素情况
     public int[] twoSum(int[] nums, int target) {
@@ -57,3 +42,6 @@ public class TwoSum_1 {
         return res;
     }
 }
+
+/*思路1：
+* 空间换时间，使用hashmap存储数组值与下标，两数之和为target，则给定一个数a，另一个数即为target-a*/

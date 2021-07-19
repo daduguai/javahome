@@ -66,6 +66,7 @@ public class TwoSum_2 {
                 }else{
                     tail.next=l2;
                 }
+                l2=l2.next;
             }
 
         }else if(l2==null&&l1!=null){
@@ -81,6 +82,7 @@ public class TwoSum_2 {
                 }else{
                     tail.next=l1;
                 }
+                l1=l1.next;
             }
         }else{
             if(flag==1){

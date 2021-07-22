@@ -42,3 +42,7 @@ public class LeetCode_3 {
         Print.println(res);
     }
 }
+
+/**
+ * 思路：
+ * 滑动窗口：使用两个指针记录开始结束位置，时间复杂度:O(n2),使用hashset存储最长的字串，时间复杂度：O(n)*/

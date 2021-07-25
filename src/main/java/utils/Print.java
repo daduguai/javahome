@@ -8,4 +8,8 @@ public class Print {
     public static void println(long text){
         System.out.println(text);
     }
+
+    public static void println(double text){
+        System.out.println(text);
+    }
 }

@@ -20,6 +20,11 @@ public class LeetCode64 {
         if(m<0||m>(data.length-1)||n<0||(n>data[0].length-1)){
             return -1;
         }
+        if(m==0&&(n>=0)){
+            return getPath(data,m,n-1)+data[m][n];
+        }else if(m>=0&&n==0){
+            return getPath(data,m-1,n)+data[m][n];
+        }
         int res=Math.min(getPath(data,m-1,n),getPath(data,m,n-1))+data[m][n];
         return res;
     }

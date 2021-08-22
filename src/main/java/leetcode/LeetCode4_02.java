@@ -12,7 +12,6 @@ public class LeetCode4_02 {
         while (k > 0) {
             if (nums1[mid1] < nums2[mid2]) {
 
-
             }
             return 0;
         }

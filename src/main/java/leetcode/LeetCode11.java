@@ -25,5 +25,31 @@ public class LeetCode11 {
         return res;
     }
 
-    //暴力法
+    //双指针法
+    public int maxArea1(int[] height) {
+        if(height.length<=1){
+            return 0;
+        }
+        int res=0;
+        for(int i=0,j=height.length-1;i!=j;){
+           if(i==0&&j==(height.length-1)){
+               res=Math.min(height[i],height[j])*(j-i);
+               if(height[i]<=height[j]){
+                   i++;
+               }else{
+                   j--;
+               }
+           }else{
+               int temp=Math.max(height[i],height[j])*(j-i);
+               res=temp>=res?temp:res;
+               if(height[i]<=height[j]){
+                   i++;
+               }else{
+                   j--;
+               }
+
+           }
+        }
+        return res;
+    }
 }

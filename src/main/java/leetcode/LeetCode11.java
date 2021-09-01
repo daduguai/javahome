@@ -43,7 +43,7 @@ public class LeetCode11 {
                    j--;
                }
            }else{
-               int temp=Math.max(height[i],height[j])*(j-i);
+               int temp=Math.min(height[i],height[j])*(j-i);
                res=temp>=res?temp:res;
                if(height[i]<=height[j]){
                    i++;

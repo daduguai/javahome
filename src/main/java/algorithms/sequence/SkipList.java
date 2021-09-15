@@ -8,16 +8,28 @@ public class SkipList {
 
     private Node head=new Node();
     public Node find(int value){
-        return null;
+        Node p=head;
+        for(int i=levelCount-1;i>=0;i++){
+            while(p.forwards[i]!=null&&p.forwards[i].data<value){
+                p=p.forwards[i];
+            }
+        }
+        if(p.forwards[0]!=null&&p.forwards[0].data==value){
+            return p.forwards[0];
+        }else{
+            return null;
+        }
     }
-    public void insert(int value){}
+    public void insert(int value){
+
+    }
 
     public void delete(int value){}
 
 
 
     public class Node{
-        private int date=-1;
+        private int data=-1;
         private Node forwards[]=new Node[MAX_LEVEL];
         private int maxLevel=0;
 

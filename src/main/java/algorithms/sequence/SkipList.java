@@ -21,11 +21,59 @@ public class SkipList {
         }
     }
     public void insert(int value){
+        int level=randomLevel();
+        Node newNode=new Node();
+        newNode.data=value;
+        newNode.maxLevel=level;
+        Node update[]=new Node[level];
+        for(int i=0;i<level;i++){
+            update[i]=head;
+        }
+        Node p=head;
+        for(int i=level-1;i>=0;--i){
+            while(p.forwards[i]!=null&&p.forwards[i].data<value){
+                p=p.forwards[i];
+            }
+            update[i]=p;
+        }
 
+        for(int i=0;i<level;i++){
+            newNode.forwards[i]=update[i].forwards[i];
+            update[i].forwards[i]=newNode;
+        }
+        if(levelCount<level){
+            levelCount=level;
+        }
     }
 
-    public void delete(int value){}
+    public void delete(int value){
+        Node[] update=new Node[levelCount];
+        Node p=head;
+        for(int i=levelCount-1;i>=0;--i){
+            while(p.forwards[i]!=null&&p.forwards[i].data<value){
+                p=p.forwards[i];
+            }
+            update[i]=p;
+        }
 
+        if(p.forwards[0]!=null&&p.forwards[0].data==value){
+            for(int i=levelCount-1;i>=0;--i){
+                if(update[i].forwards[i]!=null&&update[i].forwards[i].data==value){
+                    update[i].forwards[i]=update[i].forwards[i].forwards[i];
+                }
+            }
+        }
+        while(levelCount>1&&head.forwards[levelCount]==null){
+            levelCount--;
+        }
+    }
+
+    private int randomLevel(){
+        int level=1;
+        while(Math.random()<SKIPLIST_P&&level<MAX_LEVEL)
+            level+=1;
+        return level;
+    }
 
 
     public class Node{

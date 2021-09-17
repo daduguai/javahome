@@ -28,7 +28,17 @@ public class HeapSort implements SortInterface {
 
         data[size+1]=key;//插入最后一个节点位置
         //堆化
-
+        int pos=size+1;
+        while(pos>0){
+            if(data[pos]>data[pos/2]){
+                int temp=data[pos/2];
+                data[pos/2]=data[pos];
+                data[pos]=temp;
+                pos=pos/2;
+            }else{
+                break;
+            }
+        }
 
     }
 }

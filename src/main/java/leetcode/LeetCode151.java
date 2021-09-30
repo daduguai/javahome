@@ -72,10 +72,50 @@ public class LeetCode151 {
         return result;
     }
 
+    public static String reverseWords2(String s){
+        if(s.isEmpty()){
+            return s;
+        }
+        Stack<String>stack=new Stack<>();
+        for(int i=0,j=0;i<s.length()&&j<s.length();){
+            if(s.charAt(i)==' '){
+                i++;
+                j=i;
+                continue;
+            }
+            if(s.charAt(j)!=' '){
+                j++;
+                if(j==s.length()){
+                    String temp=s.substring(i,j);
+                    stack.push(temp);
+                }
+                continue;
+            }else{
+                String temp=s.substring(i,j);
+                stack.push(temp);
+                i=j;
+            }
+        }
+        String result="";
+        while(!stack.empty()){
+            if(result.isEmpty()){
+                result=stack.peek();
+                stack.pop();
+            }else{
+                result=result+" "+stack.peek();
+                stack.pop();
+            }
+        }
+        return result;
+    }
+
     public static void main(String[] args){
-        String s="  hello world";
+        String s="  hello world  ";
         s=" asdasd df f";
-        String rs=reverseWords(s);
+        //s=" asdasd df f";
+        //String rs=reverseWords(s);
+
+        String rs=reverseWords2(s);
         Print.println(rs);
     }
 }

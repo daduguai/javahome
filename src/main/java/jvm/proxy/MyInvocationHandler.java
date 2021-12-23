@@ -12,7 +12,6 @@ public class MyInvocationHandler implements InvocationHandler {
         this.object=object;
     }
 
-    @Override
     public Object invoke(Object proxy, Method method, Object[] args)throws Throwable{
         Print.println("权限校验");
         Object result=method.invoke(object,args);

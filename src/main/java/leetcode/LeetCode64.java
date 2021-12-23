@@ -12,7 +12,6 @@ public class LeetCode64 {
         int column=grid[0].length;
         return getPath(grid,row-1,column-1);
     }
-
     private int getPath(int[][]data,int m,int n){
         if(m==0&&n==0){
             return data[0][0];

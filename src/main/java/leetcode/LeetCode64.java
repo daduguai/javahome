@@ -27,4 +27,18 @@ public class LeetCode64 {
         int res=Math.min(getPath(data,m-1,n),getPath(data,m,n-1))+data[m][n];
         return res;
     }
+
+
+    int getPath2(int[][]grid,int row,int col){
+        int[][]path=new int[row][col];
+        path[0][0]=grid[0][0];
+        if(row==0&&col==0){
+            return path[0][0];
+        }
+        if(row==0&&col>0){
+            path[row][col]=getPath(grid,row,col-1)+grid[row][col];
+        }
+
+        return -1;
+    }
 }
